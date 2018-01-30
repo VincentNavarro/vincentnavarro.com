@@ -1,0 +1,150 @@
+---
+---
+@import url(https://fonts.googleapis.com/css?family=Asap|Rubik)
+// Color Variables
+$main: #413E4A
+$background: #f6f1e6
+$hover: #B38184
+$light: #b4b6b5
+$fade: #5c5c5c
+
+// Font Variables
+$serif: Rubik, sans-serif
+$sans-serif: Asap, sans-serif
+
+body
+   width: 100vw
+   height: 100vh
+   padding: 0
+   margin: 0
+   background: $background
+   color: $main
+
+#main
+   display: grid
+   grid-template-areas: ". . . ." ". navigation navigation ." ". content content ." ". footer footer ."
+   grid-template-columns: 10% 40% 40% 10%
+   grid-template-rows:  15% 50% 15%
+
+#navigation
+   display: grid
+   grid-template-columns: 1fr
+   grid-template-rows: 1fr
+   align-items: end
+   line-height: 2rem
+
+
+   font-family: $serif
+   font-size: 1rem
+   border-bottom: 1px solid $main
+
+   grid-area: navigation
+
+   #name, #links
+      text-align: left
+
+   h1
+      font-size: 1rem
+      font-weight: normal
+      margin: 0
+      padding: 0
+
+   a
+      text-decoration: none
+      color: $main
+
+   a:hover
+      color: $hover
+
+
+   #links
+      a
+         padding: 0 0 0 10px
+
+#content
+   margin: 20px 0 20px 0
+   padding: 0
+   font-family: $sans-serif
+   font-size: 1.4rem
+
+   grid-area: content
+
+   p
+      margin: 0
+      line-height: 2.5rem
+      hyphens: auto
+
+   .meat
+      text-indent: 20px
+      a
+         text-decoration: underline
+         color: $main
+
+      a:hover
+         color: $hover
+
+   // For the blog loop
+   #blog
+      font-size: 1.2rem
+
+      a
+         text-decoration: none
+         color: $main
+
+      a:hover
+         color: $hover
+
+      span
+         color: $light
+         margin: 0
+         padding: 0
+
+#footer
+   h3
+      font-family: $serif
+      font-size: 1rem
+      font-weight: normal
+      border-top: 1px solid $main
+      color: $fade
+      line-height: 2rem
+
+   grid-area: footer
+
+
+@media screen and (min-width: 961px)
+   #main
+      padding-top: 2%
+      grid-template-columns: 35% 15% 15% 35%
+
+   #navigation
+      grid-template-columns: 1fr 1fr
+      grid-gap: 20px
+      line-height: 1.6rem
+
+
+      #name
+         text-align: left
+         padding: 0
+         margin: 0
+
+
+      #links
+         text-align: right
+
+         a
+            padding: 0px 0px 0px 15px
+
+
+// Posts Section
+#post
+   h3
+      margin: 0
+      padding: 0
+      font-size: 1.6rem
+
+   margin: 0
+   padding: 0
+
+h2
+   font-weight: normal
+   font-size: 1.4rem

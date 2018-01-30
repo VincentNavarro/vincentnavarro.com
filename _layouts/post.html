@@ -1,0 +1,11 @@
+---
+layout: "wrapper"
+---
+<div id="post">
+   <h3>{{ page.title }}</h3>
+      <i>
+         {{ page.date | date: "%b %Y" }} • {% include read_time.html %}
+      </i>
+      <br /><br />
+   {{ content }}
+</div>
