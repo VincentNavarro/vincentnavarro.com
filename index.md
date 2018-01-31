@@ -6,17 +6,17 @@ layout: "wrapper"
 ---
 <p id="intro">
    Howdy, I'm Vince.
-   My current loves are web and minimal design.
-   It's the small details that spark my interests.
+   My current loves are web design and visual minimalism.
+   It's usually the small details that spark my interests.
 </p>
 <p class="meat">
-   I'm currently attending the university in Las Vegas, Nevada.
+   I'm currently living in Las Vegas, Nevada as a student.
    Previously, I've freelanced as:
    a brand ambassador for <a href="https://www.ioblabs.com" target="_blank">iOB Labs</a>,
    an Instagram consultant for <a href="https://chasingtitles.us/" target="_blank">ChasingTitles</a>,
    a website coordinator for <a href="http://modelingstop.com/" target="_blank">ModelingStop</a>
    , <a href="/portfolio">etc</a>.
-   I specialize in Brand Exposure: audience maintenance, A/B testing, and consistency through platforms and actions.
+   I specialize in brand exposure: audience maintenance, A/B testing, and consistency through platforms and actions.
 </p>
 <p class="meat">
    I spend my time <a href="https://www.instagram.com/officialfoodplug/" target="_blank">posting food</a>,
