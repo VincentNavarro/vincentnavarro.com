@@ -9,7 +9,7 @@ tags: link
    {% for post in site.posts %}
          <a href="{{ post.url }}">{{ post.title }}</a>
          <br>
-         <span>
+         <span class="light">
             <i>
                {{ post.date | date: "%b %Y" }} •
                {% assign words = post.content | number_of_words %}

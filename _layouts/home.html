@@ -1,0 +1,24 @@
+<html>
+   {%include indexhead.html%}
+   <body>
+      <div id="main">
+         <div id="navigation">
+            <div id="name">
+               <h1><a href="{{ site.url }}">{{ site.title }}</a></h1>
+            </div>
+            <div id="links">
+               {% for page in site.pages %}
+                  {% if page.tags == "link" %}
+                     <a href="{{ page.url }}">{{ page.title }}</a>
+                  {% endif %}
+               {% endfor %}
+            </div>
+         </div>
+
+         <div id="content">
+            {{ content }}
+         </div>
+         {% include footer.html %}
+      </div>
+   </body>
+</html>
