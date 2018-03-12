@@ -8,6 +8,8 @@ $background: #f6f1e6
 $hover: #B38184
 $light: #b4b6b5
 $fade: #5c5c5c
+$brown: #755d4f
+
 
 // Font Variables
 $serif: Rubik, sans-serif
@@ -23,9 +25,9 @@ body
 
 #main
    display: grid
-   grid-template-areas: ". . . ." ". navigation navigation ." ". content content ." ". footer footer ."
+   grid-template-areas: ". navigation navigation ." ". content content ." ". footer footer ."
    grid-template-columns: 10% 40% 40% 10%
-   grid-template-rows:  15% 50% 15%
+   grid-template-rows:  15% 35% 35% 15%
 
 #navigation
    display: grid
@@ -109,6 +111,31 @@ body
       border-top: 1px solid $main
       color: $fade
       line-height: 2rem
+
+   .square
+      display: inline-block
+      width: 15px
+      height: 15px
+      background-color: #000
+      align-self: right
+
+   .black
+      margin-left: 10px
+      background-color: $main
+
+   .brown
+      background-color: $brown
+
+   .grey
+      background-color: $fade
+
+   .pink
+      background-color: $hover
+
+   .lightGrey
+      background-color: $light
+
+
 
    grid-area: footer
 

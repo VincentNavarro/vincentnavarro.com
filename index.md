@@ -15,5 +15,5 @@ layout: "home"
    and <a href="/blog" target="_blank">writing</a> from time to time.
 </p>
 <p class="meat">
-   I'm currently available for work, check the <a href="/resume" target="_blank">rèsumè</a>.
+   I'm currently available for <a href="mailto:vincent@vincentnavarro.com">work</a>, check the <a href="/Res_2k18.pdf" target="_blank">rèsumè</a>.
 </p>
