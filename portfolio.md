@@ -4,26 +4,63 @@ title: "Portfolio"
 permalink: "/portfolio"
 tags: link
 ---
-# [FoodPlug](http://foodplug.us)
 
-![foodplug]({{"/assets/portfolio/foodplug.png" | absolute_url }}){:width="100%"}
+# PORTFOLIO
+{:#workHead}
 
-<br>
 
-# [Vincent Navarro](https://github.com/VincentNavarro/vincentnavarro.com)
+<!-- kylomedia -->
+[![kylomedia](/assets/portfolio/kylomedia.png){:width="100%" class="workImage"}](http://kylomedia.com)
 
-   ![vincentnavarro]({{"/assets/portfolio/vincentnavarro.png" | absolute_url }}){:width="100%"}
+## KYLO MEDIA
+{:.workTitle}
 
-<br>
+Freelance client requesting minimal and responsive design. Contact page with options to manage the site themselves. Wordpress theme built from scratch (PHP, HTML, CSS, JavaScript).
+{:.workParagraph}
 
-# [Coolculator](https://github.com/VincentNavarro/coolculator)
+<!-- foodplug -->
+[![foodplug](/assets/portfolio/foodplug.png){:width="100%" class="workImage"}](http://foodplug.us)
 
-   ![coolculator]({{"/assets/portfolio/coolculator.png" | absolute_url }}){:width="100%"}
+## FOOD PLUG
+{:.workTitle}
 
-<br>
+Instagram fueled   exposure for small restaurants. Built around UX/UI aspects of responsive design. Utilizes bootstrap and javascript. Social media self-handled <a href="https://instagram.com/officialfoodplug">@foodplug</a>
+{:.workParagraph}
 
-# [Colour Lovers Parser](https://github.com/VincentNavarro/colourLoversParser)
+<!-- coolculator -->
+[![Coolculator](/assets/portfolio/coolculator.png){:width="100%" class="workImage"}](https://github.com/VincentNavarro/coolculator)
 
-   ![colourloversparser]({{"/assets/portfolio/colourloversparser.png" | absolute_url }}){:width="100%"}
+## COOLCULATOR
+{:.workTitle}
 
-<br>
+Calculator built around ReactJS, NodeJS, SCSS, and CSS grid system.
+{:.workParagraph}
+
+<!-- vincent navarro -->
+[![Vincent Navarro](/assets/portfolio/vincentnavarro.png){:width="100%" class="workImage"}](https://github.com/VincentNavarro/vincentnavarro.com)
+
+## VINCENT NAVARRO
+{:.workTitle}
+
+Portfolio website built using a Jekyll, SASS, and github pages.
+{:.workParagraph}
+
+
+<!-- newtab -->
+[![New Tab](/assets/portfolio/newtab.png){:width="100%" class="workImage"}](http://vinceofalltrades.com)
+
+## NEW TAB
+{:.workTitle}
+
+New tab page built for myself. Focusing on UI aspects and responsive design.
+{:.workParagraph}
+
+
+<!-- colourloversparser -->
+[![ColourLoversParser](/assets/portfolio/colourloversparser.png){:width="100%" class="workImage"}](https://github.com/VincentNavarro/colourLoversParser)
+
+## COLOUR LOVERS PARSER
+{:.workTitle}
+
+Color display utilizing JSON file parsing from colourLovers.com. Changes color based of hex colors scraped.
+{:.workParagraph}
