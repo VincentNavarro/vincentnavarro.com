@@ -9,15 +9,6 @@ tags: link
 {:#workHead}
 
 
-<!-- kylomedia -->
-[![kylomedia](/assets/portfolio/kylomedia.png){:width="100%" class="workImage"}](http://kylomedia.com)
-
-## KYLO MEDIA
-{:.workTitle}
-
-Freelance client requesting minimal and responsive design. Contact page with options to manage the site themselves. Wordpress theme built from scratch (PHP, HTML, CSS, JavaScript).
-{:.workParagraph}
-
 <!-- foodplug -->
 [![foodplug](/assets/portfolio/foodplug.png){:width="100%" class="workImage"}](http://foodplug.us)
 
@@ -34,6 +25,16 @@ Instagram fueled   exposure for small restaurants. Built around UX/UI aspects of
 {:.workTitle}
 
 Calculator built around ReactJS, NodeJS, SCSS, and CSS grid system.
+{:.workParagraph}
+
+
+<!-- kylomedia -->
+[![kylomedia](/assets/portfolio/kylomedia.png){:width="100%" class="workImage"}](http://kylomedia.com)
+
+## KYLO MEDIA
+{:.workTitle}
+
+Freelance client requesting minimal and responsive design. Contact page with options to manage the site themselves. Wordpress theme built from scratch (PHP, HTML, CSS, JavaScript).
 {:.workParagraph}
 
 <!-- vincent navarro -->
