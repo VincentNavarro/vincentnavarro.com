@@ -11,5 +11,5 @@ I'm currently traveling around Europe and the UK whilst being a Software Enginee
 <a href="https://github.com/VincentNavarro" target="_blank">GitHub</a>.
 {:.meat}
 
-You can reach out to me <a href="mailto:vincent@vincentnavarro.com">here</a>, and also view my <a href="/Vincent_Navarro_Resume_2021.pdf" target="_blank">rèsumè</a>.
+You can reach out to me <a href="mailto:vincent@vincentnavarro.com">here</a>, and also view my <a href="/Vincent_Navarro_Resume_2K24.pdf" target="_blank">resume</a>.
 {:.meat}
